@@ -10,7 +10,7 @@ import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
 public class GalaxyTimesMod extends Mod{
-
+    public static ModItems modItems;
     public GalaxyTimesMod(){
         Log.info("Loaded GalaxyTimesMod constructor.");
 
@@ -31,6 +31,8 @@ public class GalaxyTimesMod extends Mod{
     @Override
     public void loadContent(){
         Log.info("Loading some GalaxyTimesMod content.");
+        modItems = new ModItems();
+        modItems.load();
     }
 
 }
