@@ -1,4 +1,4 @@
-package example;
+package GalaxyTimes;
 
 import arc.*;
 import arc.util.*;
@@ -9,10 +9,10 @@ import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
-public class ExampleJavaMod extends Mod{
+public class GalaxyTimesMod extends Mod{
 
-    public ExampleJavaMod(){
-        Log.info("Loaded ExampleJavaMod constructor.");
+    public GalaxyTimesMod(){
+        Log.info("Loaded GalaxyTimesMod constructor.");
 
         //listen for game load event
         Events.on(ClientLoadEvent.class, e -> {
@@ -30,7 +30,7 @@ public class ExampleJavaMod extends Mod{
 
     @Override
     public void loadContent(){
-        Log.info("Loading some example content.");
+        Log.info("Loading some GalaxyTimesMod content.");
     }
 
 }
