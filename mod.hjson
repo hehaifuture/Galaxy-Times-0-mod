@@ -1,5 +1,5 @@
 #the mod name as displayed in-game
-displayName: "Java Mod Template"
+displayName: "Galaxy Times mod"
 
 #the internal name of your mod
 name: "Galaxy-Times-mod"
@@ -8,7 +8,7 @@ name: "Galaxy-Times-mod"
 author: "HOO"
 
 #the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
+main: "GalaxyTimes.GalaxyTimesMod"
 
 #the mod description as seen in the mod dialog
 description: "A Mindustry Java mod template."
